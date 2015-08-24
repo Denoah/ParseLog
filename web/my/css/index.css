@@ -1,0 +1,133 @@
+.header
+{
+    background: #212A3F;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index:9999;
+}
+
+.headerParse
+{
+    background-color: #8AB839;
+    width: 100%;
+
+}
+
+.menu li a:hover
+{
+    background-color: #212A3F;
+    color:#fff;
+}
+
+.nav li a:focus
+{
+    background: #212A3F;
+    color: #fff;
+}
+.background
+{
+    background-attachment: fixed;
+    background-color: lightgrey;
+    background-image:  url("../../image/bg-taxi.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    cursor: default;
+    padding: 180px 0 120px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+@-moz-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-webkit-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-o-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
+@-ms-keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
+@keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
+
+.inner
+{
+    -moz-animation: reveal-banner 1s 0.25s ease-in-out;
+    -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+    -o-animation: reveal-banner 1s 0.25s ease-in-out;
+    -ms-animation: reveal-banner 1s 0.25s ease-in-out;
+    animation: reveal-banner 1s 0.25s ease-in-out;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    background: rgba(33, 42, 63, 0.5);
+    color: white;
+    display: inline-block;
+    opacity: 0;
+    padding: 20px 40px;
+    text-align: center;
+
+}
+.text-box
+{
+    font-family: 'Poppins', sans-serif;
+}
+.text-box p.intro
+{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+}
+.text-box h2
+{
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    border-bottom: 7px double #fa3447;
+    border-top: 7px double #fa3447;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+}
+.text-box h3
+{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+}
+.text-box p
+{
+    font-size: 10px
+font-weight: 400;
+}
+.text-box p span
+{
+    font-size: 15px;
+    font-weight: 400;
+    color: #83D3C9;
+}
+.text-box p span a
+{
+    text-decoration: none;
+    color: #8AB839;
+    font-size: 15px;
+}
+.text-box p a.link-button
+{
+    text-decoration: none;
+    color: #fff;
+    border: #fff solid 1px;
+    padding: 15px 22px;
+    margin-top: 20px;
+    line-height: 4;
+    font-size: 18px;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+}
+.text-box p a.link-button:hover
+{
+    background: rgba(255, 255, 255, 0.3);
+}
+
